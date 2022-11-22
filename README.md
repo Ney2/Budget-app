@@ -22,9 +22,9 @@ To get a local copy of this project:
 ### Authors
 
 ### 👤 Kidist Dinku
-GitHub: [Ney2](https://github.com/Ney2)
-Twitter: [@GutaKidist](https://twitter.com/GutaKidist)
-Linkedin: [Kidist Dinku](https://www.linkedin.com/in/kidist-guta/)
+- GitHub: [Ney2](https://github.com/Ney2)
+- Twitter: [@GutaKidist](https://twitter.com/GutaKidist)
+- Linkedin: [Kidist Dinku](https://www.linkedin.com/in/kidist-guta/)
 
 ### Show your support
 Give a ⭐️ if you like this project!
@@ -39,4 +39,4 @@ Contributions, issues, and feature requests are welcome! Feel free to check the 
 - Thanks to my colleagues
 
 ### 📝 License
-- This project is [MIT]() licensed.
+- This project is [MIT](https://github.com/Ney2/Budget-app/blob/dev/MIT.md) licensed.
