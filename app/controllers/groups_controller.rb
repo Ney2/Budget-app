@@ -1,5 +1,5 @@
 class GroupsController < ApplicationController
-    before_action :require_user
+  before_action :require_user
   before_action :require_current_user, only: %i[edit update destroy]
 
   def index
