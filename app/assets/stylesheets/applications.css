@@ -140,7 +140,6 @@ a {
   cursor: pointer;
 }
 
-// User Sign-up and login
 .user-expenses {
   display: flex;
   flex-direction: column;
@@ -323,8 +322,6 @@ input:-webkit-autofill:focus,
 input:-webkit-autofill:active {
   -webkit-box-shadow: 0 0 0 30px white inset;
 }
-
-// WELCOME ADD
 
 .modal-body {
   padding: 2rem 1rem;
