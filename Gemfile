@@ -11,6 +11,18 @@ gem 'devise'
 # Add CanCanCan
 gem 'cancancan'
 
+gem 'sass-rails', '>= 6'
+
+# Prettier
+gem 'prettier'
+
+# IonIcons
+gem 'font-ionicons-rails', git: 'https://github.com/ricardoemerson/font-ionicons-rails.git'
+
+# Bootstraps
+
+gem 'bootstrap-sass', '3.4.1'
+
 gem 'rubocop', '>= 1.0', '< 2.0'
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem 'sprockets-rails'
@@ -51,6 +63,8 @@ gem 'bootsnap', require: false
 # Use Sass to process CSS
 # gem "sassc-rails"
 
+gem 'rspec-rails'
+
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"
 
@@ -65,7 +79,7 @@ group :development do
 
   # Add speed badges [https://github.com/MiniProfiler/rack-mini-profiler]
   # gem "rack-mini-profiler"
-
+  gem 'database_cleaner'
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
 end
