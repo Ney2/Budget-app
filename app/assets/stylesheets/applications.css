@@ -120,14 +120,6 @@ a {
   padding-top: 1rem;
 }
 
-.get-started {
-  background-color: #f7f8fd;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-bottom: 3rem;
-}
-
 .get-started button {
   background: rgb(104, 226, 130);
   background: linear-gradient(90deg, rgba(104, 226, 130, 1) 20%, rgba(80, 219, 144, 1) 53%, rgba(58, 211, 154, 1) 78%);
@@ -864,6 +856,7 @@ input:-webkit-autofill:active {
   cursor: pointer;
 }
 
+/* stylelint-disable */ 
 .splash {
   background-color: #f7f8fd;
   min-height: 95vh;
@@ -914,6 +907,7 @@ input:-webkit-autofill:active {
   padding-top: 1rem;
 }
 
+/* stylelint-disable */ 
 .get-started {
   background-color: #f7f8fd;
   display: flex;
