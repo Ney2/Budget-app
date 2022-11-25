@@ -907,7 +907,7 @@ input:-webkit-autofill:active {
   padding-top: 1rem;
 }
 
-/* stylelint-disable */ 
+/* stylelint-enable  */ 
 .get-started {
   background-color: #f7f8fd;
   display: flex;
