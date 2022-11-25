@@ -1,0 +1,16 @@
+<section class="splash">
+  <h1 class="splash__title">Fast Budget | Expense Manager <hr></h1>
+  <div class="splash-image"><%= image_tag 'splash.jpg', class: 'splash-illustration' %></div>
+  <div class="splash-text">
+    <h2 class="splash-text__title">Welcome to personal budget planner</h2>
+    <p class="splash-text__description"> Manage your personal finances and easily track your money, expenses and budget .</p>
+  </div>
+
+    <div class="border-solid border-1 bg-[#3778C2] w-11/12 text-center p-2">
+    <%= link_to "Log in", new_user_session_path, class: "text-decoration-none" %>
+  </div>
+  <div class="border-solid border-1 bg-[#3778C2] w-11/12 text-center p-2">
+    <%= link_to "Sign Up", new_user_registration_path, class: "text-decoration-none"%>
+  </div>
+  
+</section>
