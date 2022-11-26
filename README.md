@@ -11,6 +11,10 @@ This is a mobile web application where you can manage your budget: you have a li
 - Postgresql
 - Rails
 
+### Live Demo
+- [Video Link](https://drive.google.com/file/d/1v5RV8nQEDJCugh9N5IaPdfySTb7cjvfZ/view?usp=sharing)
+- [Live Demo](https://budget-app21.herokuapp.com/)
+
 ### Getting Started
 To get a local copy of this project:
 
