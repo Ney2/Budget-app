@@ -12,6 +12,10 @@ gem 'devise'
 # Add CanCanCan
 gem 'cancancan'
 
+gem 'pg', '~> 1.1'
+
+gem 'github-pages', group: :jekyll_plugins
+
 gem 'sass-rails', '>= 6'
 
 # Prettier

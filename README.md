@@ -34,7 +34,7 @@ To get a local copy of this project:
 Give a ⭐️ if you like this project!
 
 ### 🤝 Contributing
-Contributions, issues, and feature requests are welcome! Feel free to check the issues page.
+Contributions, [issues](https://github.com/Ney2/Budget-app/issues), and feature requests are welcome! Feel free to check the issues page.
 
 ### Acknowledgments
 - Original design idea by [Gregoire Vella on Behance](https://www.behance.net/gregoirevella). 

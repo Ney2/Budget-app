@@ -6,5 +6,7 @@ class User < ApplicationRecord
   has_many :groups, dependent: :destroy
   has_many :entities, dependent: :destroy
   has_one_attached :avatar, dependent: :destroy
-  validates :name, presence: true, uniqueness: true
+  validates :name, presence: true, length: { in: 1..80 }
+  validates :email, presence: true, length: { in: 1..80 }, uniqueness: true
+  validates :password, presence: true, length: { in: 6..80 }
 end

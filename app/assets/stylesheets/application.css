@@ -358,6 +358,9 @@ input:-webkit-autofill:active {
   align-items: center;
   justify-content: space-between;
   padding: 2rem;
+  background: linear-gradient(135deg, #6078ea 0%, #17ead9 100%);
+  color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
 }
 
 .user-info {
@@ -686,16 +689,13 @@ input:-webkit-autofill:active {
 
 .add-button {
   position: absolute;
-  top: 0;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 700;
   color: #fff;
   cursor: pointer;
-  padding: 1rem;
   background: linear-gradient(135deg, #ff57b9 0%, #a704fd 100%);
-  border-radius: 50%;
 }
 
 .show-button {
