@@ -1,73 +1,46 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+### Blog App
+This is a mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.
 
-# Project Name
+### Built with
+- Ruby on Rails
+- VS Code
+- Postgresql
+### Pre-requsite
+- Ruby
+- VS Code
+- Postgresql
+- Rails
 
-> Description the project.
+### Live Demo
+- [Video Link](https://drive.google.com/file/d/1v5RV8nQEDJCugh9N5IaPdfySTb7cjvfZ/view?usp=sharing)
+- [Live Demo](https://budget-app21.herokuapp.com/)
 
+### Getting Started
+To get a local copy of this project:
 
-## Built With
+- Clone the repository (https://github.com/Ney2/Budget-app.git)
+- Change the directory to the cloned repo using cd command
+= Open your terminal and run rails server
+- This will open the project in the browser That's it! You can play with it as you wish 😄
 
-- Major languages
-- Frameworks
-- Technologies used
+### Author
 
-## Live Demo (if available)
+### 👤 Kidist Dinku
+- GitHub: [Ney2](https://github.com/Ney2)
+- Twitter: [@GutaKidist](https://twitter.com/GutaKidist)
+- Linkedin: [Kidist Dinku](https://www.linkedin.com/in/kidist-guta/)
 
-[Live Demo Link](https://livedemo.com)
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
-
-## Authors
-
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](../../issues/).
-
-## Show your support
-
+### Show your support
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
+### 🤝 Contributing
+Contributions, [issues](https://github.com/Ney2/Budget-app/issues), and feature requests are welcome! Feel free to check the issues page.
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+### Acknowledgments
+- Original design idea by [Gregoire Vella on Behance](https://www.behance.net/gregoirevella). 
+- Thanks to the Microverse team for the great curriculum 🙌.
+- Thanks to Code Reviewers for the insightful feedback ⚡💘.
+- Thanks to my colleagues
 
-## 📝 License
-
-This project is [MIT](./MIT.md) licensed.
+### 📝 License
+- This project is [MIT](https://github.com/Ney2/Budget-app/blob/dev/MIT.md) licensed.

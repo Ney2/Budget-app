@@ -1,0 +1,52 @@
+<!-- display group name -->
+<section class="home">
+  <div class="user-container">
+    <div class="user-info">
+
+
+      <div class="user-text">
+        <p class="user-text__welcome">Welcome!</p>
+        <p class="user-text__name"><%= current_user.name %></p>
+      </div>
+    </div>
+
+    <!-- render modal -->
+    <%= render 'groups' %>
+
+    <!-- link to devise user edit -->
+    <%= link_to edit_user_registration_path do %>
+    <ion-icon name="settings" class="settings-button"></ion-icon>
+    <% end %>
+  </div>
+
+  <div class="tranactions">
+    <div class="title">
+      <p class="title__text">Transactions</p>
+      <p class="view-all" data-toggle="modal" data-target="#deleteGroup">View All</p>
+    </div>
+    <ul class="transactions-list">
+      <% @groups.each do |group| %>
+
+      <li class="item">
+        <div class="transaction-name">
+          <%= link_to group_entities_path(group) do %>
+          <ion-icon name="<%= group.icon %>" class="transaction-img <%= group.icon %>"></ion-icon>
+          <% end %>
+          <p class="transaction-name__text"><%= link_to group.name.split(" ").map(&:capitalize).join(" "), group_entities_path(group) %></p>
+        </div>
+        <div class="transaction-amount">
+          <p class="transaction-amount__text"><% if group.entities.present? %> -$<%= group.total_amount.to_s.gsub(/\d(?=(\d{3})+\.)/, '\&,') %>.00 <% else %> $ 0.00 <% end %></p>
+          <p class="transaction-amount__date"><%= group.created_at.strftime("%a") %></p>
+        </div>
+        <% end %>
+      </li>
+    </ul>
+  </div>
+  <div class="options">
+    <%= button_to 'Log out', destroy_user_session_path, method: :delete, class: 'btn btn-danger'%>
+    <%= link_to new_group_path do %>
+    <button class="add-button">Add category</button>
+    <% end %>
+    <ion-icon name="alert-circle" class="show-button" data-toggle="modal" data-target="#exampleModal"></ion-icon>
+  </div>
+</section>
