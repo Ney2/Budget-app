@@ -1,6 +1,9 @@
 <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %> <%= render "devise/shared/error_messages", resource: resource %>
 
 <section class="user-expenses">
+  <%= link_to splash_index_path, class: 'back__button' do %>
+  <ion-icon name="arrow-back" class="settings-button"></ion-icon>
+  <% end %>
   <div class="user__amount">
     <div class="user__title">Sign Up</div>
 
