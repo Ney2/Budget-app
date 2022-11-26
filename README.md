@@ -23,7 +23,7 @@ To get a local copy of this project:
 = Open your terminal and run rails server
 - This will open the project in the browser That's it! You can play with it as you wish 😄
 
-### Authors
+### Author
 
 ### 👤 Kidist Dinku
 - GitHub: [Ney2](https://github.com/Ney2)
